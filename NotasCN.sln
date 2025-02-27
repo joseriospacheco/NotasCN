@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotasCN.Application", "NotasCN.Application\NotasCN.Application.csproj", "{4183AE1F-0A6E-48A4-9443-E2C42E1CE964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotasCN.Domain", "NotasCN.Domain\NotasCN.Domain.csproj", "{4DAE072D-4B89-4301-8AAC-14D0843CCFD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4183AE1F-0A6E-48A4-9443-E2C42E1CE964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4183AE1F-0A6E-48A4-9443-E2C42E1CE964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4183AE1F-0A6E-48A4-9443-E2C42E1CE964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4183AE1F-0A6E-48A4-9443-E2C42E1CE964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAE072D-4B89-4301-8AAC-14D0843CCFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAE072D-4B89-4301-8AAC-14D0843CCFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAE072D-4B89-4301-8AAC-14D0843CCFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAE072D-4B89-4301-8AAC-14D0843CCFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADEA9F1A-40DA-4961-B260-C2FC9ACC9DE3}
+	EndGlobalSection
+EndGlobal
