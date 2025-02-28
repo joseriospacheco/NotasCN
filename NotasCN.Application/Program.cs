@@ -1,5 +1,5 @@
 ﻿namespace NotasCN.Application;
-using NotasCN.Domain;
+using NotasCN.Domain.Entities;
 
 internal class Program
 {
@@ -40,6 +40,6 @@ internal class Program
         Console.WriteLine($"Nota del Segundo Corte: {corte2:F2}");
         Console.WriteLine($"Nota del Tercer Corte: {corte3:F2}");
         Console.WriteLine($"Nota Final del Curso: {notaFinal:F2}");
-
+        Console.WriteLine($"Reprobado {Nota.EstaReprobado(notaFinal)}");
     }
 }
